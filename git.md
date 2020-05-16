@@ -6,7 +6,7 @@ Git viene diviso in tre aree.
 
 1. Working Directory
 
-2. Staging Area 
+2. Staging Area
 
 3. .git directory repository
 
@@ -38,7 +38,7 @@ La staging area permette di scegliere su quali file fare il commit, per sempio s
 
 `git reset nomefile`
 
-oppure toglierli tutti 
+oppure toglierli tutti
 
 `git reset`
 
@@ -108,11 +108,11 @@ Normalmente non si lavora sul master ma su un branch quindi
 
 `git push -u origin branch-di-lavoro`
 
-Con l'opzione -u impostiamo il repository di lavoro e la prossima volta basta solo fare 
+Con l'opzione -u impostiamo il repository di lavoro e la prossima volta basta solo fare
 
 `git push`
 
---- 
+---
 
 Quando ho deciso che è la versione definitiva posso fare il merge del branch di lavoro su quello master
 
@@ -148,8 +148,7 @@ Dato che sono su master posso fare il merge del branch-di-lavoro
 
 ### 13. Cancello branch di lavoro remoto
 
-`git push origin --delete brach-di-lavoro
-
+`git push origin --delete brach-di-lavoro`
 
 ---
 
@@ -161,7 +160,7 @@ Dato che sono su master posso fare il merge del branch-di-lavoro
 
 ### con SSH
 
-Prima bisogna creare le chiavi e importarle su gitHub https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+Prima bisogna creare le chiavi e importarle su gitHub <https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh>
 
 poi
 
